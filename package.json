@@ -1,0 +1,21 @@
+{
+  "name": "product-catalog-api",
+  "version": "1.0.0",
+  "description": "Horse products catalog API using GitHub Pages",
+  "main": "index.js",
+  "scripts": {
+    "fetch": "node scripts/fetch-and-process-xml.js",
+    "build": "node scripts/fetch-and-process-xml.js"
+  },
+  "keywords": [
+    "product",
+    "catalog",
+    "api",
+    "github-pages"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fast-xml-parser": "^4.3.2"
+  }
+}
